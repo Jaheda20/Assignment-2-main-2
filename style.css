@@ -291,31 +291,38 @@ body{
 .country-profile{
     width: 50%;
     height: 400px;
+    line-height: 26px
     /* border: 1px solid red; */
     /* padding: 20px; */
-    /* margin: 20px; */
-    
-    
+    /* margin: 20px; */   
+}
+.country-profile .title{
+    margin: 30px;
+    line-height: 50px;
+
 }
 .country-profile li{
     list-style: inside;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 26px;
+
 }
-.video-attachment{
-    width: 600px;
+.bangladeshi-mountain{
+    width: 50%;
     height: 400px;
-    position: relative;
+    background-image: url(Images/Group\ 40089.png), linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    line-height: 36px;
 }
-.video-attachment p{
-    position:absolute; 
-    right: 35%;
-    top: 25%;
-    font-weight: 900;
-    color: rgba(177, 192, 47, 0.71);
-    font-size: 3rem;text-align: center;
-    
-}
+
 
 
 
