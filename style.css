@@ -279,6 +279,43 @@ body{
 
 
 /* attachment section styling */
+.attachment{
+    width: 100%;
+    /* border: 1px solid blue; */
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.country-profile{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid red; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+    
+    
+}
+.country-profile li{
+    list-style: inside;
+    font-weight: 700;
+    line-height: 20px;
+}
+.video-attachment{
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+.video-attachment p{
+    position:absolute; 
+    right: 35%;
+    top: 25%;
+    font-weight: 900;
+    color: rgba(177, 192, 47, 0.71);
+    font-size: 3rem;text-align: center;
+    
+}
 
 
 
